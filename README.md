@@ -49,11 +49,13 @@ npm install
 ### 3. Set up Environment Variables
 Ensure that the .env file in the root directory contains the correct Zoho API credentials:
 
+```env
 env
 Copy code
 CLIENT_ID='YOUR_CLIENT_ID'
 CLIENT_SECRET='YOUR_CLIENT_SECRET'
 REDIRECT_URI='YOUR_REDIRECT_URI'
+```
 
 ### 4. Run the Backend
 In the backend folder, run:
@@ -88,6 +90,8 @@ Time Logs Format
 When adding time logs, the following data is sent:
 
 ### json
+
+```env
 Copy code
 {
   "workDate": "2024-12-10",  // The date the work was done
@@ -96,6 +100,7 @@ Copy code
   "hours": "5.0",            // Time spent on the task in hours
   "description": "Task description"  // Description of the work done
 }
+```
 Make sure to replace "YOUR_USER_ID" and "YOUR_JOB_ID" with the relevant Zoho details. These values are necessary for associating the time logs with specific users and tasks in Zoho.
 
 ### Troubleshooting
