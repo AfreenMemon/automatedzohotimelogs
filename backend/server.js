@@ -25,16 +25,16 @@ let refreshToken = null;
 const timeLogs = [
     {
         workDate: "2024-12-10",
-        userId: "766729263",
-        jobId: "284871000011349265",
-        hours: "5.0",
+        userId: "USER_ID_PLACEHOLDER",     // Unique identifier for the user (replaced with placeholder for privacy)
+        jobId: "JOB_ID_PLACEHOLDER",  // Unique identifier for the job (replaced with placeholder for privacy)
+        hours: "5.0",            // Number of hours worked on this task
         description: "Documentation for Email as Optional Requirement",
     },
     {
         workDate: "2024-12-10",
-        userId: "766729263",
-        jobId: "284871000011349265",
-        hours: "3.5",
+        userId: "USER_ID_PLACEHOLDER",     // Unique identifier for the user (replaced with placeholder for privacy)
+        jobId: "JOB_ID_PLACEHOLDER",  // Unique identifier for the job (replaced with placeholder for privacy)
+        hours: "5.0",            // Number of hours worked on this task
         description: "Documentation for Google Analytics",
     },
 ];
