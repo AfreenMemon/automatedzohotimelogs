@@ -107,6 +107,7 @@ Make sure to replace "YOUR_USER_ID" and "YOUR_JOB_ID" with the relevant Zoho det
 Ensure that all environment variables are set correctly before running the project.
 If you encounter issues with OAuth authentication, verify that your Zoho API credentials are correct.
 For frontend styling issues, ensure that Tailwind CSS is properly configured.
+https://www.zoho.com/projects/help/rest-api/bugtracker-api.html#register
 
 ### Contributing
 Feel free to fork this repository and submit pull requests. All contributions are welcome!
